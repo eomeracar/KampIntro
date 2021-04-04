@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampIntro", "KampIntro\Kamp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{86F99932-81E7-4247-931C-3FD15AF48FB9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{0293FE94-5371-44E1-9619-FE670122E0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{A69FB571-B880-4B5B-BF34-B94E136B9F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{86F99932-81E7-4247-931C-3FD15AF48FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F99932-81E7-4247-931C-3FD15AF48FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F99932-81E7-4247-931C-3FD15AF48FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0293FE94-5371-44E1-9619-FE670122E0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0293FE94-5371-44E1-9619-FE670122E0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0293FE94-5371-44E1-9619-FE670122E0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0293FE94-5371-44E1-9619-FE670122E0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69FB571-B880-4B5B-BF34-B94E136B9F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69FB571-B880-4B5B-BF34-B94E136B9F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69FB571-B880-4B5B-BF34-B94E136B9F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69FB571-B880-4B5B-BF34-B94E136B9F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
