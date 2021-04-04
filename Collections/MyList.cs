@@ -22,13 +22,22 @@ namespace Collections
             }
             items[items.Length - 1] = item;
         }
-        public int Length
-        {
-            get { return items.Length; }
-        }
+        //public int Count
+        //{
+        //    get { return items.Length; }
+        //}
         public T[]  Items
         {
             get { return items; }
         }
+        public int Count
+        {
+            get { return Items.Length; }
+        }
+       
+
+      
+
+
     }
 }

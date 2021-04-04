@@ -14,7 +14,6 @@ namespace Constructors
             Console.WriteLine(customer1.Name);
             Console.WriteLine(customer2.Name);
 
-            var number = 11;
             Console.WriteLine();
         }
     }
