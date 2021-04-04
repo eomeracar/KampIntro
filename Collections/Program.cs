@@ -35,17 +35,13 @@ namespace Collections
             //keyValuePairs.Add("01", "Adana");
             //Console.WriteLine(keyValuePairs.Count);
 
-            //foreach (KeyValuePair<string, string> kvp in keyValuePairs)
-            //{
-            //    Console.WriteLine(kvp.Key+"-->"+kvp.Value);
-            //}
 
             DynamicDictionary<int, string> myDictionary = new DynamicDictionary<int, string>();
             myDictionary.Add(37, "Kastamonu");
             myDictionary.Add(37, "Kastamonu");
             foreach (var kvp in myDictionary.MyKeyandValuePairs)
             {
-                Console.WriteLine(kvp.Item1 + "-->" + kvp.Item2);
+                Console.WriteLine(kvp.Key  + "-->" + kvp.Value);
             }
 
             //int[,] vs = new int[0,0];

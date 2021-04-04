@@ -6,7 +6,7 @@ namespace Collections
 {
     class DynamicDictionary<K, V>
     {
-        (K, V)[] Items;
+        (K Key, V Value)[] Items;
         bool duplicateInfo = false;
         public DynamicDictionary()
         {
@@ -34,7 +34,7 @@ namespace Collections
         {
             get { return Items.Length; }
         }
-        public (K, V)[] MyKeyandValuePairs
+        public (K Key, V Value)[] MyKeyandValuePairs
         {
             get { return Items; }
         }
