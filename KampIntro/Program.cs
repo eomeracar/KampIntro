@@ -8,8 +8,8 @@ namespace KampIntro
         {
 
             Console.WriteLine("Hello World!");
-            string courseName1 = "SQL";
-            string courseName2 = "c#";
+            //string courseName1 = "SQL";
+            //string courseName2 = "c#";
 
             Course course1 = new Course();
             course1.Name = "SQL";
