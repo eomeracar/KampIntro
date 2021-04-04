@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Collections
 {
@@ -6,10 +7,23 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            MyList<string> myList = new MyList<string>();
-            myList.Add("Test");
+            MyList<string> names = new MyList<string>();
+            names.Add("Test");
+            names.Add("Test2");
+            names.Add("Test3");
 
             Console.WriteLine("Hello World!");
+            Console.WriteLine(names.Length);
+            foreach(var item in names.Items)
+            {
+                Console.WriteLine(item);
+            }
+
+            List<string> names2 = new List<string>();
+            foreach (var item in names2)
+            {
+
+            }
         }
     }
 }
