@@ -13,10 +13,24 @@ namespace Collections
 
             myDictionary.Add(37, "Kastamonu");
 
+            Console.WriteLine(myDictionary.Count);
+            
+            myDictionary.Add(01, "Adana");
+            myDictionary.Add(34, "Istanbul");
+
             Console.WriteLine(myDictionary.Count); 
             foreach (var kvp in myDictionary.MyKeyandValuePairs)
             {
                 Console.WriteLine(kvp.Key  + "-->" + kvp.Value);
+            }
+
+            foreach (var key in myDictionary.GetKeys)
+            {
+                Console.WriteLine($"Key --> {key}" );
+            }
+            foreach (var values in myDictionary.GetValues)
+            {
+                Console.WriteLine($"Value --> {values}");
             }
 
         }

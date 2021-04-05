@@ -7,10 +7,14 @@ namespace Collections
     class DynamicDictionary<K, V>
     {
         (K Key, V Value)[] Items;
+        K[] AllKeys;
+        V[] AllValues;
         bool duplicateInfo = false;
         public DynamicDictionary()
         {
             Items = new (K, V)[0];
+            
+
         }
         public void Add(K key, V value)
         {
@@ -29,7 +33,15 @@ namespace Collections
             {
                 Console.WriteLine("Item already exists.");
             }
+            AllKeys=new K[Items.Length];
+            AllValues= new V[Items.Length];
+            for (int i = 0; i < Items.Length; i++)
+            {
+                AllKeys[i] = Items[i].Key;
+                AllValues[i] = Items[i].Value;
+            }
         }
+        
         public int Count
         {
             get { return Items.Length; }
@@ -46,6 +58,14 @@ namespace Collections
                 result = (item.Item1.ToString() == key.ToString()) ? true : false;
             }
             return result;
+        }
+        public K[] GetKeys
+        {
+            get { return AllKeys; }
+        }
+        public V[] GetValues
+        {
+            get { return AllValues; }
         }
     }
 }
