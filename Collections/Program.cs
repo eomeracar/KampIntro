@@ -7,6 +7,9 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+
+            Dictionary<string, object> dictionary = new Dictionary<string, object>();
+
             DynamicDictionary<int, string> myDictionary = new DynamicDictionary<int, string>();
             myDictionary.Add(37, "Kastamonu");
             Console.WriteLine(myDictionary.Count);

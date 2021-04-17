@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Collections
 {
-    class DynamicDictionary<K, V>
+    public class DynamicDictionary<K, V>
     {
         (K Key, V Value)[] Items;
         K[] AllKeys;
@@ -13,8 +13,6 @@ namespace Collections
         public DynamicDictionary()
         {
             Items = new (K, V)[0];
-            
-
         }
         public void Add(K key, V value)
         {
