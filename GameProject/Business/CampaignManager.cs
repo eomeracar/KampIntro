@@ -31,7 +31,6 @@ namespace GameProject.Entities
         public List<Campaign> _campaigns
         {
             get;
-            set;
         }
         public Campaign _campaign
         {

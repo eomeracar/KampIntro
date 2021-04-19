@@ -42,6 +42,15 @@ namespace GameProject
         {
             return _gamer;
         }
-       
+        //public Gamer MyProperty(int i)
+        //{
+        //    foreach (var item in _gamer)
+        //    {
+
+        //    }
+        //}
+
+
+
     }
 }
